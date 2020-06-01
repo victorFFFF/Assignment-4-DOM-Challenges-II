@@ -1,4 +1,4 @@
-<!-- Question 4.1 FINISHED -->
+<!-- Question 4.1 & 4.2 FINISHED -->
 
 
 <!DOCTYPE html>
@@ -10,18 +10,23 @@
 </head>
 <body>
 
-<p>Click the button to argue</p>
-<div class ="background2">
-<p><button onclick="myFunction()">Click Me</button></p>
+  <H1  onMouseOver="alert('DONT HOVER OVER ME');return true;">DONT HOVER OVER ME</H1>  
 
 
-<p><button onclick="myFunction2()">No,Click Me</button></p>
-</div>
+    <div class ="background2">
+        <p>Click the button to argue</p>
+
+        <p><button onclick="myFunction()">Click Me</button></p>
+
+
+        <p><button onclick="myFunction2()">No,Click Me</button></p>
+    </div>
 
 <div id="myDIV"></div>
 
 
 <script>
+
 function myFunction() {
   var x = document.getElementById("myDIV");
     x.innerHTML = "Im right!";
