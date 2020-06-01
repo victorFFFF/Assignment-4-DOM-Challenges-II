@@ -10,3 +10,6 @@ body{
     padding:10%;
     border:10px solid black;
 }
+.center{
+  text-align: center;
+}
